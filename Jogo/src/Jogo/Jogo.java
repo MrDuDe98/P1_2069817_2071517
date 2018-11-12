@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package p1_2069817_2071517;
+package Jogo;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Turma A
  */
-public class P1_2069817_2071517 {
+public class Jogo {
 
     /**
      * @param args the command line arguments
