@@ -5,6 +5,8 @@
  */
 package p1_2069817_2071517;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Turma A
@@ -15,7 +17,14 @@ public class P1_2069817_2071517 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Menu menu = new Menu();
+        menu.printCommands();
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduza um comando: ");
+        int entry = Integer.parseInt(scanner.nextLine());
+        Menu.Command command = Menu.Command.values()[entry];
+        
+        menu.selectCommand(command);
     }
-    
 }
